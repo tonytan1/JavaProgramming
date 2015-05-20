@@ -24,7 +24,7 @@ public class StockAverage {
         catch (InputMismatchException e){
             System.out.println("pls enter a num with right format ^-^:");
             stock = -1;
-        }
+        }//TEST 
 
         while (stock >= 0){
             stocks.add(stock);
