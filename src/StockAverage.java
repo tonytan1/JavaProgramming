@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class StockAverage {
     public static void main(String[] args){
         Scanner stdIn = new Scanner(System.in);
-        ArrayList<Double> stocks = new ArrayList<>();
+        ArrayList<Double> stocks = new ArrayList<Double>();
         //The Double class wraps a value of the primitive type double
         // in an object.An object of type Double
         // contains a single field whose type is double.
