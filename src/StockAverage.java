@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class StockAverage {
     public static void main(String[] args){
         Scanner stdIn = new Scanner(System.in);
-        ArrayList<Double> stocks = new ArrayList<Double>();
+        ArrayList<Double> stocks = new ArrayList<>();
         //The Double class wraps a value of the primitive type double
         // in an object.An object of type Double
         // contains a single field whose type is double.
@@ -27,7 +27,10 @@ public class StockAverage {
         }//TEST
 
         while (stock >= 0){
-            stocks.add(stock);
+            stocks.add(stock);//Autoboxing is the process of automatically
+            // wrapping a primitive value in a appropriate wrapper class
+            // whenever there's an attempt tp use a primitive value
+            // in a place that expects a primitive.
             System.out.print("Enter a stock value(-1 to quit):");
             try {
                 stock = stdIn.nextDouble();
