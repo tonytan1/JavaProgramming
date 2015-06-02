@@ -13,9 +13,8 @@ public class DayTrader {
         int day;
         for(int simulation=0; simulation<100;simulation++ ){
             for(day=1; day<=90; day++){
-                if(balance<500|| balance > 1200){
+                if(balance<100|| balance > 2000)continue;{
                     int result = (balance>1000?win++:fail++);
-                    break;
                 }
                 moneyInvested = 500;
                 balance -= moneyInvested;
