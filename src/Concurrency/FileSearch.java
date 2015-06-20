@@ -5,6 +5,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by tony.tan on 6/18/2015.
+ *
+ * search the file and controlling the interruption of a thread.
+ *
  */
 public class FileSearch implements Runnable {
     private String initPath;
@@ -59,7 +62,7 @@ public class FileSearch implements Runnable {
         thread.start();
 
         try{
-            TimeUnit.SECONDS.sleep(100);
+            TimeUnit.SECONDS.sleep(100);//concurrency API throws InterruptedException.
         }catch (InterruptedException e){
             e.printStackTrace();
         }
