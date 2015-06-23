@@ -57,7 +57,7 @@ public class FileSearch implements Runnable {
     }
 
     public static void main(String[] args){
-        FileSearch searcher = new FileSearch("C:\\", "agile java.pdf");
+        FileSearch searcher = new FileSearch("C:\\", "FileSearch.java");
         Thread thread=new Thread(searcher);
         thread.start();
 
