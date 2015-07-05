@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class BearStore {
-    ArrayList<Bear> bears = new ArrayList<>();
+    ArrayList<Bear> bears = new ArrayList<Bear>();
 
     public void addStdBears(int num){
         for(int i=0; i<num; i++){

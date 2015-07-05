@@ -1,5 +1,8 @@
 /**
  * Created by tonytan on 25/5/15.
+ *
+ * reference:
+ * http://program-lover.blogspot.hk/2008/10/insertion-sort.html
  */
 public class insertionSort {
     public static void insertionSort(int[] list){

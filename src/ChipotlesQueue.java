@@ -11,7 +11,7 @@ import java.util.Queue;
 public class ChipotlesQueue {
     public static void main(String[] args){
         String serverdPerson;
-        Queue<String> chipotlesQueue = new ArrayDeque<>();
+        Queue<String> chipotlesQueue = new ArrayDeque<String>();
 
         chipotlesQueue.add("Alexa");
         chipotlesQueue.add("baccat");

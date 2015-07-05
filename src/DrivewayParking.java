@@ -9,8 +9,8 @@ import java.util.ArrayDeque;
 import java.util.Scanner;
 
 public class DrivewayParking {
-    private ArrayDeque<String> driveway1 = new ArrayDeque<>();
-    private ArrayDeque<String> driveway2 = new ArrayDeque<>();
+    private ArrayDeque<String> driveway1 = new ArrayDeque<String>();
+    private ArrayDeque<String> driveway2 = new ArrayDeque<String>();
 
     public void describeDriveways(){
         System.out.println("driveway1" + driveway1);
