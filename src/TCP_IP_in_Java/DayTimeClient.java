@@ -13,11 +13,11 @@ import java.net.UnknownHostException;
  */
 public class DayTimeClient {
     public static void main(String[] args){
-        String[] hostname = {"vision.poly.edu","time.nist.gov"};
+        String[] hostname = {"localhost"};
 
         for (int i=0; i<hostname.length; i++){
             try {
-                Socket theSocket = new Socket(hostname[i], 13);
+                Socket theSocket = new Socket(hostname[i], 2333);
                 InputStream timeStream = theSocket.getInputStream();
                 StringBuffer time = new StringBuffer();
                 int c;
