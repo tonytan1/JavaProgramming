@@ -27,7 +27,6 @@ public class FindFiles {
 
         try {
             Files.walkFileTree(startDir, visitor);
-
         }
         catch (IOException e){
             System.out.println(e.getClass());

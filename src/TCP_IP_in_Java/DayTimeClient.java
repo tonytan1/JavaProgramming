@@ -17,7 +17,7 @@ public class DayTimeClient {
 
         for (int i=0; i<hostname.length; i++){
             try {
-                Socket theSocket = new Socket(hostname[i], 2333);
+                Socket theSocket = new Socket(hostname[i], 2335);
                 InputStream timeStream = theSocket.getInputStream();
                 StringBuffer time = new StringBuffer();
                 int c;
