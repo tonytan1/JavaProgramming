@@ -1,14 +1,20 @@
 package Concurrency;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * Created by tony.tan on 7/23/2015.
+ *
  * http://tntxia.iteye.com/blog/545989
+ * http://www.journaldev.com/1095/java-atomic-operations-atomicinteger-example
+ *
  * among four thread, two thread do j++, the other do j--.
  * it is also considered that the atomic operation: int getAndAdd(int delta)
  * and int getAndDecrement(int delta).
  */
 public class ThreadTest {
-    private int j;
+    //private int j;
+    AtomicInteger j = new AtomicInteger();
 
     public static void main(String[] args){
         ThreadTest thread = new ThreadTest();
@@ -24,14 +30,14 @@ public class ThreadTest {
     }
 
     class Inc implements Runnable{
-        private synchronized void inc(){
-            j++;
+        private void inc(){
+            j.getAndAdd(1);
             System.out.println(
                     Thread.currentThread().getName()+"-inc: "+j);
         }
 
         @Override
-        public void run() {
+        public void run() {//synchronized j++
             for (int i=0; i<100; i++){
                 inc();
             }
@@ -39,8 +45,8 @@ public class ThreadTest {
     }
 
     class Dec implements Runnable{
-        private synchronized void dec(){
-            j--;
+        private void dec(){//synchronized j--
+            j.getAndDecrement();
             System.out.println(
                     Thread.currentThread().getName()+"-dec: "+j);
         }
