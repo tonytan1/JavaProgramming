@@ -4,6 +4,8 @@ package Concurrency;
  * Created by tony.tan on 7/23/2015.
  * http://tntxia.iteye.com/blog/545989
  * among four thread, two thread do j++, the other do j--.
+ * it is also considered that the atomic operation: int getAndAdd(int delta)
+ * and int getAndDecrement(int delta).
  */
 public class ThreadTest {
     private int j;
