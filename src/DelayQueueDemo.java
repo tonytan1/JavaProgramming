@@ -1,9 +1,7 @@
-import com.sun.tools.javac.util.List;
 
 import java.util.ArrayList;
 import java.util.concurrent.*;
 import java.util.*;
-
 import static java.util.concurrent.TimeUnit.*;
 
 /**
