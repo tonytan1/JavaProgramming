@@ -12,7 +12,7 @@ import java.security.UnrecoverableEntryException;
  *
  * A server that always sends out the same file, no matter what the request.
  */
-public class SingleFileHTTPServer extends Thread {
+public class  SingleFileHTTPServer extends Thread {
     private byte[] content;
     private byte[] header;
     private int port = 2336;
