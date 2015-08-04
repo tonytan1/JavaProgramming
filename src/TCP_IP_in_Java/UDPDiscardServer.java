@@ -24,7 +24,7 @@ public class UDPDiscardServer {
 
             while (true){
                 try {
-                    server.receive(packet);
+                    server.receive(packet);//seems like accept() method in socket
                     String s = new String(packet.getData(), 0, packet.getLength());
                     System.out.println(packet.getAddress()+" at port "
                     + packet.getPort()+" says "+s);
