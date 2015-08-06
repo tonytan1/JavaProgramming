@@ -8,7 +8,7 @@ import java.net.*;
 /**
  * Created by tonytan on 6/8/15.
  *
- *
+ * use two thread handle receive and send.
  */
 
 
