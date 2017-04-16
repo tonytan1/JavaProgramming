@@ -32,7 +32,7 @@ public class QuickSort {
             array[high]=array[low];
         }
 
-        array[low]=pivot;
+        array[high]=pivot;
         return low;
     }
 
@@ -45,5 +45,4 @@ public class QuickSort {
             System.out.println(i);
         }
     }
-
 }

@@ -26,7 +26,7 @@ public class DatagramExample {
             System.out.println(new String(dp.getData(), dp.getOffset(), dp.getLength()));
         }catch (UnknownHostException e){
             e.printStackTrace();
-        }catch (SocketException e){
+        }catch (Exception e){
             e.printStackTrace();
         }
     }

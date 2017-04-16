@@ -145,7 +145,7 @@ public class TreeNode {
     }
 
     private static void printNodes(List<TreeNode> nodes){
-        if (nodes.isEmpty() == false){
+        if (!nodes.isEmpty()){
             for (TreeNode node: nodes) {
                 System.out.print(node.data + " - ");
             }
