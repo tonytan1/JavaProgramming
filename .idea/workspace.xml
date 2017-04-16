@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26bc8ac6-270b-40b4-8e2b-977e2c10de51" name="Default" comment="self-similarity tree">
+    <list default="true" id="26bc8ac6-270b-40b4-8e2b-977e2c10de51" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/Algorithm/BucketSort.class" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/Algorithm/BucketSort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/Algorithm/FindDuplicatedNum.class" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/Algorithm/FindDuplicatedNum.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/Algorithm/FindMaxSubarray.class" afterPath="$PROJECT_DIR$/out/production/JavaProgramming/Algorithm/FindMaxSubarray.class" />
@@ -1061,7 +1061,7 @@
       <workItem from="1491625586856" duration="1853000" />
       <workItem from="1491720250869" duration="825000" />
       <workItem from="1491912682946" duration="4777000" />
-      <workItem from="1491922693217" duration="3273000" />
+      <workItem from="1491922693217" duration="3284000" />
     </task>
     <task id="LOCAL-00001" summary="common commit">
       <created>1492349668502</created>
@@ -1084,11 +1084,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492349794099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="self-similarity tree">
+      <created>1492349886494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492349886494</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64163000" />
+    <option name="totallyTimeSpent" value="64174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1160,9 +1167,9 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="common commit" />
-    <MESSAGE value="self-similarity tree" />
     <MESSAGE value="concurrency" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrency" />
+    <MESSAGE value="self-similarity tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="self-similarity tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
