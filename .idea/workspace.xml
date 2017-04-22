@@ -6,18 +6,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/Power.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/ReOder.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/RotateArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Buidler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/Director.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/HTMLBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/MainTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/BuilderPattern/TextBuilder.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/MainTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Manager.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/MessageBox.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/Product.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/PrototypePattern/UnderLinePen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/Singleton/TicketMaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/Singleton/Triple.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaProgramming.iws" />
@@ -975,7 +968,7 @@
       <workItem from="1491912682946" duration="4777000" />
       <workItem from="1491922693217" duration="6820000" />
       <workItem from="1492431495283" duration="31000" />
-      <workItem from="1492431586630" duration="15381000" />
+      <workItem from="1492431586630" duration="15405000" />
     </task>
     <task id="LOCAL-00001" summary="common commit">
       <created>1492349668502</created>
@@ -1026,11 +1019,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492842028612</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Builder Pattern">
+      <created>1492842052731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1492842052731</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83122000" />
+    <option name="totallyTimeSpent" value="83146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1116,7 +1116,8 @@
     <MESSAGE value="self-similarity tree" />
     <MESSAGE value="Factory Method pattern" />
     <MESSAGE value="Abstract Factory Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory Pattern" />
+    <MESSAGE value="Builder Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
