@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26bc8ac6-270b-40b4-8e2b-977e2c10de51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/KthNodeFromLast.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/ListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/MergeListNode.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/Power.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/ReOder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/ReverseListNode.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/RotateArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -938,7 +934,7 @@
       <workItem from="1492431495283" duration="31000" />
       <workItem from="1492431586630" duration="20861000" />
       <workItem from="1492849366812" duration="387000" />
-      <workItem from="1492870962624" duration="3389000" />
+      <workItem from="1492870962624" duration="3420000" />
     </task>
     <task id="LOCAL-00001" summary="common commit">
       <created>1492349668502</created>
@@ -1010,11 +1006,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492926865637</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="List Node">
+      <created>1492926896473</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1492926896473</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92378000" />
+    <option name="totallyTimeSpent" value="92409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1102,7 +1105,8 @@
     <MESSAGE value="Builder Pattern" />
     <MESSAGE value="Prototype Pattern" />
     <MESSAGE value="Fabonacci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fabonacci" />
+    <MESSAGE value="List Node" />
+    <option name="LAST_COMMIT_MESSAGE" value="List Node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
