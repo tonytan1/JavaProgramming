@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26bc8ac6-270b-40b4-8e2b-977e2c10de51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/Fibonacci.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/KthNodeFromLast.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/ListNode.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithm/MergeListNode.java" />
@@ -939,7 +938,7 @@
       <workItem from="1492431495283" duration="31000" />
       <workItem from="1492431586630" duration="20861000" />
       <workItem from="1492849366812" duration="387000" />
-      <workItem from="1492870962624" duration="3354000" />
+      <workItem from="1492870962624" duration="3389000" />
     </task>
     <task id="LOCAL-00001" summary="common commit">
       <created>1492349668502</created>
@@ -1004,11 +1003,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492842081816</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fabonacci">
+      <created>1492926865637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1492926865637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92343000" />
+    <option name="totallyTimeSpent" value="92378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1095,7 +1101,8 @@
     <MESSAGE value="Abstract Factory Pattern" />
     <MESSAGE value="Builder Pattern" />
     <MESSAGE value="Prototype Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype Pattern" />
+    <MESSAGE value="Fabonacci" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fabonacci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
