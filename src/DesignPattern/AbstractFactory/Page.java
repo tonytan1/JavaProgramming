@@ -1,6 +1,6 @@
 package DesignPattern.AbstractFactory;
 
-import Concurrency.Writer;
+import ShowMeCode.Concurrency.Writer;
 
 import java.io.FileWriter;
 import java.io.IOException;

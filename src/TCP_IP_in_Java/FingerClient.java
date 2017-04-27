@@ -1,6 +1,6 @@
 package TCP_IP_in_Java;
 
-import Concurrency.Writer;
+import ShowMeCode.Concurrency.Writer;
 
 import java.io.*;
 import java.net.*;

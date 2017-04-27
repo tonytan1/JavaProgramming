@@ -1,6 +1,6 @@
 package DataStructure;
 
-import SelfSimilarityTree.Tree;
+import DataStructure.SelfSimilarityTree.Tree;
 
 import java.util.*;
 
