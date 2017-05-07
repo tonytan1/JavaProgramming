@@ -24,7 +24,7 @@ class DelayedTask implements Runnable, Delayed {
 
     public long getDelay(TimeUnit unit){
         return  unit.convert(
-                trigger - System.nanoTime(), NANOSECONDS);
+                trigger - System.nanoTime(), NANOSECONDS );
     }
 
     public int compareTo(Delayed arg){
