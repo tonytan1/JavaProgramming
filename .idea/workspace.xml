@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26bc8ac6-270b-40b4-8e2b-977e2c10de51" name="Default" comment="">
+    <list default="true" id="26bc8ac6-270b-40b4-8e2b-977e2c10de51" name="Default" comment=" pattern">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/Maintest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/PrintProxy.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/Printable.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/ProxyPattern/Printer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/Hand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/Maintest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/ProbStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/Strategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DesignPattern/StrategyPattern/WinningStrategy.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/AwtControlDemo$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/AwtControlDemo$ButtonClickListener.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/AwtControlDemo.class" afterPath="" />
@@ -134,16 +128,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/toStringinstanceof/Cat.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/toStringinstanceof/Dog.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaProgramming/toStringinstanceof/pet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/Employee/Commission.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/Employee/Commissioned.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/Employee/Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/Employee/Hourly.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/Employee/Salaried.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/Employee/SalariedAndCommissioned.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ShowMeCode/pet.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignPattern/BridgePattern/MainTest.java" afterPath="$PROJECT_DIR$/src/DesignPattern/BridgePattern/MainTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShowMeCode/DelayQueueDemo.java" afterPath="$PROJECT_DIR$/src/ShowMeCode/DelayQueueDemo.java" />
     </list>
     <ignored path="JavaProgramming.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -191,7 +177,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding />
+              <folding>
+                <element signature="e#591#592#0" expanded="false" />
+                <element signature="e#633#634#0" expanded="false" />
+                <element signature="e#681#682#0" expanded="false" />
+                <element signature="e#719#720#0" expanded="false" />
+                <element signature="e#761#762#0" expanded="false" />
+                <element signature="e#797#798#0" expanded="false" />
+                <element signature="e#839#840#0" expanded="false" />
+                <element signature="e#876#877#0" expanded="false" />
+                <element signature="e#1122#1123#0" expanded="false" />
+                <element signature="e#1160#1161#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,7 +208,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding />
+              <folding>
+                <element signature="e#341#342#0" expanded="false" />
+                <element signature="e#382#383#0" expanded="false" />
+                <element signature="e#595#596#0" expanded="false" />
+                <element signature="e#620#621#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +223,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="e#443#444#0" expanded="false" />
+                <element signature="e#484#485#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,7 +236,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
+              <folding>
+                <element signature="e#429#430#0" expanded="false" />
+                <element signature="e#471#472#0" expanded="false" />
+                <element signature="e#680#681#0" expanded="false" />
+                <element signature="e#707#708#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1103,7 +1113,7 @@
       <workItem from="1494129871509" duration="3269000" />
       <workItem from="1494136871006" duration="228000" />
       <workItem from="1494138544965" duration="695000" />
-      <workItem from="1494140785583" duration="1012000" />
+      <workItem from="1494140785583" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="common commit">
       <created>1492349668502</created>
@@ -1203,11 +1213,25 @@
       <option name="project" value="LOCAL" />
       <updated>1493298948627</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="category reconstruction">
+      <created>1494144180236</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1494144180236</updated>
+    </task>
+    <task id="LOCAL-00016" summary="strategy pattern">
+      <created>1494144219832</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1494144219832</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111163000" />
+    <option name="totallyTimeSpent" value="111301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1220,6 +1244,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1236,7 +1261,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1331,7 +1356,9 @@
     <MESSAGE value="Array" />
     <MESSAGE value="power of math, unsign integer" />
     <MESSAGE value="Project category reconstruction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project category reconstruction" />
+    <MESSAGE value="category reconstruction" />
+    <MESSAGE value="strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1613,7 +1640,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#681#682#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#876#877#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1160#1161#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1629,7 +1667,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1637,7 +1680,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#484#485#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1653,7 +1699,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#471#472#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
